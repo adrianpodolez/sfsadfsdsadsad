@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koncert utopia - Formularz Rejestracyjny</title>
+</head>
+<body>
+
+<h1>Formularz na Koncert Traviska </h1>
+
+<form action="mailto:pawkowals7@gmail.com" method="post">
+
+
+
+    <label for="imie">Imię:</label>
+    <input type="text" id="imie" name="imie" required><br>
+
+    <label for="nazwisko">Nazwisko:</label>
+    <input type="text" id="nazwisko" name="nazwisko" required><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br>
+
+    <label for="wiek">Wiek:</label>
+    <input type="number" id="wiek" name="wiek" required><br>
+
+    <label for="data">Data koncertu:</label>
+    <select id="data" name="data">
+        <option value="2023-12-01">1 grudnia 2023</option>
+        <option value="2023-12-15">15 grudnia 2023</option>
+        <option value="2024-01-05">5 stycznia 2024</option>
+    </select><br>
+
+    <label for="piosenki">Wybór piosenek:</label>
+    <select id="piosenki" name="piosenki" multiple>
+        <option value="piosenka1">franchise</option>
+        <option value="piosenka2">goosedumps</option>
+        <option value="piosenka3">sicko mode</option>
+    </select><br>
+
+    <label for="jedzenie">Wybór jedzenia/wypicia:</label>
+    <select id="jedzenie" name="jedzenie">
+        <option value="pizza">Pizza</option>
+        <option value="burger">Burger</option>
+        <option value="inne">Cola</option>
+    </select><br>
+
+    <label>
+        <input type="checkbox" name="zgoda" required>
+        Wyrażam zgodę na przetwarzanie danych osobowych
+    </label><br>
+
+    <button type="submit">Wyślij</button>
+    <style>
+          body {
+    background-color: #388458; /* Kolor tła strony (biały) */
+}
+body{ 
+
+
+    background-image: url('giphytravis.gif');
+    background-size: cover;
+    background-position: 50% 50px; 
+    background-repeat: no-repeat; 
+}
+
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #855c0f;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        color: #333333; 
+    }
+    
+    form {
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    h1 {
+    text-align: left;
+    color: #c06810; /* Kolor tekstu dla nagłówka */
+}
+    
+    label {
+        display: block;
+        margin-bottom: 8px;
+        color: #555555; 
+    }
+    
+    input,
+    select {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 16px;
+        box-sizing: border-box;
+    }
+    
+    button {
+        background-color: #4caf50;
+        color: #ffffff;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #45a049;
+    }
+   
+</style>
+    
+    
+    
+    
+    
+    
+</form>
+
+</body>
+</html>
